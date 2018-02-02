@@ -4,6 +4,19 @@ atom-panel.modal{
 .overlay{
     background-color:#232e34!important;
 }
+.btn, .btn.btn-default{
+    background-image:none!important;
+    background-color: #232e34!important;
+}
+.atom-dock-toggle-button .atom-dock-toggle-button-inner {
+    background-color: #263238;
+    border: 1px solid #5e7980;
+}
+
+.list-tree .list-item.selected:before, .list-tree .list-nested-item.selected:before {
+    background: transparent;
+}
+
 atom-panel.modal::before{
     background-color:#232e34!important;
 }
@@ -17,24 +30,19 @@ atom-text-editor {
         margin-right: 8px;
     }
     .line-number{
-        background-color:#263238;
+        background-color:#263238!important;
     }
 
     .gutter .line-number.cursor-line {
         background-color: #263238!important;
     }
-    .btn{
-        background-image:none;
-        background-color: #232e34;
-    }
-    .list-tree .list-item.selected:before, .list-tree .list-nested-item.selected:before {
-        background: transparent;
-    }
+
+
     .syntax--support.syntax--function {
         text-decoration: none;
     }
     .syntax--entity.syntax--name.syntax--function {
-        
+
         text-decoration: none;
     }
   .syntax--entity.syntax--name.syntax--tag{
