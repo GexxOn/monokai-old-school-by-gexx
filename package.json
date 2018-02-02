@@ -1,5 +1,5 @@
 {
-  "name": "monokai-old-school",
+  "name": "monokai-old-school-by-gexx",
   "theme": "syntax",
   "version": "3.0.0",
   "description": "An old school monokai theme for Atom, that doesn't suck",
@@ -8,7 +8,7 @@
     "dark",
     "syntax"
   ],
-  "repository": "https://github.com/malbernaz/monokai-old-school",
+  "repository": "https://github.com/GexxOn/monokai-old-school-by-gexx",
   "license": "MIT",
   "engines": {
     "atom": ">0.49.0"
