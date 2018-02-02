@@ -1,7 +1,16 @@
+atom-panel.modal{
+    background-color:#232e34!important;
+}
+.overlay{
+    background-color:#232e34!important;
+}
+atom-panel.modal::before{
+    background-color:#232e34!important;
+}
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-  background-color:#232e34;
+  background-color:#232e34!important;
 
     .gutter {
         background-color: #263238!important;
@@ -14,7 +23,20 @@ atom-text-editor {
     .gutter .line-number.cursor-line {
         background-color: #263238!important;
     }
-
+    .btn{
+        background-image:none;
+        background-color: #232e34;
+    }
+    .list-tree .list-item.selected:before, .list-tree .list-nested-item.selected:before {
+        background: transparent;
+    }
+    .syntax--support.syntax--function {
+        text-decoration: none;
+    }
+    .syntax--entity.syntax--name.syntax--function {
+        
+        text-decoration: none;
+    }
   .syntax--entity.syntax--name.syntax--tag{
       text-decoration:none;
   }
