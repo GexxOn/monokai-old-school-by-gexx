@@ -10,11 +10,15 @@ atom-panel.modal{
 }
 .atom-dock-toggle-button .atom-dock-toggle-button-inner {
     background-color: #263238;
-    border: 1px solid #5e7980;
+    border: 1px solid transparent!important;
+}
+
+background-tips{
+     background-color:#232e34!important;
 }
 
 .list-tree .list-item.selected:before, .list-tree .list-nested-item.selected:before {
-    background: transparent;
+    background: transparent!important;
 }
 
 atom-panel.modal::before{
@@ -27,7 +31,8 @@ atom-text-editor {
 
     .gutter {
         background-color: #263238!important;
-        margin-right: 8px;
+        margin-right: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
     }
     .line-number{
         background-color:#263238!important;
